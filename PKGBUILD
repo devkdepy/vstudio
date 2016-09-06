@@ -7,7 +7,7 @@ url="http://www.valentina-db.com"
 license=('custom')
 depends=('glibc' 'cairo' 'gcc-libs')
 source=("http://www.valentina-db.com/en/studio/download/current/vstudio_x64_lin-deb")
-md5sums=('1df23880d56e29ff0dcdd661d4d01a1d')
+md5sums=('f1a74aba4f6dbc87a4bb884aba96fcc5')
 
 package() {
   bsdtar -xf data.tar.xz -C "${pkgdir}"
